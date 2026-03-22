@@ -7,12 +7,12 @@ def generate_launch_description():
             package='18225045_Shopee',
             executable='talker',
             name='minimal_publisher',
-            output='screen'  # WAJIB ADA untuk menjawab soal 5
+            output='screen'  
         ),
         Node(
             package='18225045_Shopee',
             executable='listener',
             name='minimal_subscriber',
-            output='screen'  # WAJIB ADA untuk menjawab soal 5
+            output='screen'  
         )
     ])
